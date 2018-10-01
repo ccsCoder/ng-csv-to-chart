@@ -1,0 +1,11 @@
+<div class="upload-form">
+    <button (click) = invokeFileSelector() class="upload-button" id="upload_button">
+        <div class="icon">
+            <i class="material-icons">file_upload</i>
+        </div>
+
+        <span>Upload a File...</span>    
+    </button>
+    <input type="file" (change) = onFileSelected($event.target.files) id ="hidden-input-upload" class="input-upload" name="uploader" placeholder="Select a file"/>
+    <!-- <label for="uploader">Choose a CSV</label> -->
+</div>

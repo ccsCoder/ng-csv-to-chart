@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #2196F3;
+    height: 50px;
+    padding: 10px;
+    border-bottom: #1976D2;
+    width: 100%;
+    margin:0;
+    font-size: 1.5rem;
+    position: fixed;
+    top:0;
+}
+
+
+.container {
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.vertical-start-aligned {
+    padding-top:0;
+    margin-top:0;
+}
+
+.primary-background, .primary-dark-background, .accent-background {
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.primary-dark-background {
+    background-color: #1976D2;
+}
+
+.accent-background {
+    background-color: #FF5252;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
